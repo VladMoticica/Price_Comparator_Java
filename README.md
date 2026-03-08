@@ -1,6 +1,5 @@
-# Price Comparator Java Backend App  
-
-## A backend application for comparing product prices across multiple stores.  
+# 📈 Price Comparator Java Backend App  
+A backend application for comparing product prices across multiple stores.    
 Built with Java, Spring Boot, and Gradle, this project processes CSV product data and provides endpoints for alerts, baskets, discounts, and product information.  
 
 ## 🛠 Tools & Technologies

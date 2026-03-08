@@ -1,13 +1,13 @@
-## A backend application for comparing product prices across multiple stores. 
-Built with Java, Spring Boot, and Gradle, this project processes CSV product data and provides endpoints for alerts, baskets, discounts, and product information.
+## A backend application for comparing product prices across multiple stores.  
+Built with Java, Spring Boot, and Gradle, this project processes CSV product data and provides endpoints for alerts, baskets, discounts, and product information.  
 
 ## 🛠 Tools & Technologies
-IDE: IntelliJ IDEA
-Language: Java (OpenJDK 17.0.15)
-Build Tool: Gradle (Kotlin DSL)
-Framework: Spring Boot
-CSV Handling: BufferedReader (no external libraries)
-Frontend: HTML, JavaScript
+IDE: IntelliJ IDEA  
+Language: Java (OpenJDK 17.0.15)  
+Build Tool: Gradle (Kotlin DSL)  
+Framework: Spring Boot  
+CSV Handling: BufferedReader (no external libraries)  
+Frontend: HTML, JavaScript  
 
 ## 📁 Project Structure
 src/<br>
@@ -77,20 +77,20 @@ src/<br>
  Replace {storeName} or {categoryName} with your desired value
 
 ## 📌 Assumptions
-IntelliJ IDEA and OpenJDK 17 must be installed
-Tested with ms-17, JDK version 17.0.15
+IntelliJ IDEA and OpenJDK 17 must be installed  
+Tested with ms-17, JDK version 17.0.15  
 
 ## 📊 Features
-View product lists per store
-Monitor discounts and promotions
-Manage product alerts
-Handle baskets with products
-Simple HTML/JS frontend for interaction
+View product lists per store  
+Monitor discounts and promotions  
+Manage product alerts  
+Handle baskets with products  
+Simple HTML/JS frontend for interaction  
 
 ## ⚙ How CSVs Are Used
-CSV files are loaded via BufferedReader without external libraries
-Products and discounts are parsed and stored in memory
-Supports multiple stores with versioned CSVs
+CSV files are loaded via BufferedReader without external libraries  
+Products and discounts are parsed and stored in memory  
+Supports multiple stores with versioned CSVs  
 
 ## 🔗 Live Links (Local)
 Home: /home  

@@ -1,3 +1,5 @@
+# Price Comparator Java Backend App  
+
 ## A backend application for comparing product prices across multiple stores.  
 Built with Java, Spring Boot, and Gradle, this project processes CSV product data and provides endpoints for alerts, baskets, discounts, and product information.  
 
@@ -57,24 +59,24 @@ src/<br>
  └────/ 
 
 ## 🚀 Getting Started
-1. Download the project
- Go to the master branch → click Code → Download ZIP
-2. Open in IntelliJ
- Unzip the project
- Right-click the folder → Open Folder as IntelliJ IDEA Project
- Click Trust Project if prompted
-3. Set JDK
- Click SetupSDK in the top-right yellow ribbon
- Select ms-17 (OpenJDK 17.0.15)
-4. Load Gradle
- Click Load in the bottom-right corner to load Gradle build files
-5. Run the Application
- Navigate to src/main/java/org.App/Main
- Click the green Run arrow
-6. Access the Backend
- Open your browser at: http://localhost:8080/home
- Example endpoints: /products/store/{storeName}   → storeName: lidl | kaufland | profi | mega/products/category/{categoryName}
- Replace {storeName} or {categoryName} with your desired value
+1. Download the project  
+ Go to the master branch → click Code → Download ZIP  
+2. Open in IntelliJ  
+ Unzip the project  
+ Right-click the folder → Open Folder as IntelliJ IDEA Project  
+ Click Trust Project if prompted  
+3. Set JDK  
+ Click SetupSDK in the top-right yellow ribbon  
+ Select ms-17 (OpenJDK 17.0.15)  
+4. Load Gradle  
+ Click Load in the bottom-right corner to load Gradle build files  
+5. Run the Application  
+ Navigate to src/main/java/org.App/Main  
+ Click the green Run arrow  
+6. Access the Backend  
+ Open your browser at: http://localhost:8080/home  
+ Example endpoints: /products/store/{storeName}   → storeName: lidl | kaufland | profi | mega/products/category/{categoryName}  
+ Replace {storeName} or {categoryName} with your desired value  
 
 ## 📌 Assumptions
 IntelliJ IDEA and OpenJDK 17 must be installed  

@@ -93,8 +93,8 @@ Products and discounts are parsed and stored in memory
 Supports multiple stores with versioned CSVs
 
 ## 🔗 Live Links (Local)
-Home: /home
-Products: /products/store/{storeName}
-Alerts: /alerts
-Basket: /basket
-Discounts: /discounts
+Home: /home  
+Products: /products/store/{storeName}  
+Alerts: /alerts  
+Basket: /basket  
+Discounts: /discounts  

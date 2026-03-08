@@ -1,15 +1,17 @@
-# Price Comparator App Backend
+#Price Comparator App Backend
 
-## Tools
-IDE: IntelliJ<br>
-Language: Java (OpenJDK 17.0.15)<br>
-Builder: Gradle (Kotlin)<br>
-Framework: Spring Boot<br>
-CSVs: BufferedReader, no libs<br>
-"Frontend": HTML, Javascript<br>
+## A backend application for comparing product prices across multiple stores. 
+Built with Java, Spring Boot, and Gradle, this project processes CSV product data and provides endpoints for alerts, baskets, discounts, and product information.
 
+# 🛠 Tools & Technologies
+IDE: IntelliJ IDEA
+Language: Java (OpenJDK 17.0.15)
+Build Tool: Gradle (Kotlin DSL)
+Framework: Spring Boot
+CSV Handling: BufferedReader (no external libraries)
+Frontend: HTML, JavaScript
 
-## Structure
+# 📁 Project Structure
 src/<br>
  ├── main/<br>
  │  ├── java/<br>
@@ -55,19 +57,46 @@ src/<br>
  │      ├── basket.html<br>
  │      └── delete-alert.html<br>
  └────/ 
- 
 
-# Instructions
-1. Go to "master" branch, click on "Code", and then "Download ZIP"
-2. Unzip the file, right-click the folder and select "Open Folder as IntelliJ IDEA Project"
-3. Click "Trust Project" on the pop-up
-4. Click "SetupSDK" in the top-right corner on the yellow ribbon, and select "ms-17" (OpenJDK 17)
-5. Click "Load" in the bottom-right corner when prompted to load gradle build files
-6. Navigate to "src/main/java/org.App/Main" and click "Run" (green arrow)
-7. Go To: "http://localhost:8080/home"
-8. Take a look at all the available addresses, copy any of them into your search bar to navigate them<br>
-Note: for "localhost:8080/products/store/{storeName}", you replace {storeName} with one of the options: lidl/kaufland/profi/mega, same thing with {categoryName}.
+# 🚀 Getting Started
+1. Download the project
+ Go to the master branch → click Code → Download ZIP
+2. Open in IntelliJ
+ Unzip the project
+ Right-click the folder → Open Folder as IntelliJ IDEA Project
+ Click Trust Project if prompted
+3. Set JDK
+ Click SetupSDK in the top-right yellow ribbon
+ Select ms-17 (OpenJDK 17.0.15)
+4. Load Gradle
+ Click Load in the bottom-right corner to load Gradle build files
+5. Run the Application
+ Navigate to src/main/java/org.App/Main
+ Click the green Run arrow
+6. Access the Backend
+ Open your browser at: http://localhost:8080/home
+ Example endpoints: /products/store/{storeName}   → storeName: lidl | kaufland | profi | mega/products/category/{categoryName}
+ Replace {storeName} or {categoryName} with your desired value
 
+#📌 Assumptions
+IntelliJ IDEA and OpenJDK 17 must be installed
+Tested with ms-17, JDK version 17.0.15
 
-# Assumptions
-IntelliJ & OpenJDK 17 have to be installed, I used ms-17, JDK version 17.0.15.
+#📊 Features
+View product lists per store
+Monitor discounts and promotions
+Manage product alerts
+Handle baskets with products
+Simple HTML/JS frontend for interaction
+
+# ⚙ How CSVs Are Used
+CSV files are loaded via BufferedReader without external libraries
+Products and discounts are parsed and stored in memory
+Supports multiple stores with versioned CSVs
+
+# 🔗 Live Links (Local)
+Home: /home
+Products: /products/store/{storeName}
+Alerts: /alerts
+Basket: /basket
+Discounts: /discounts

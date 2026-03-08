@@ -1,7 +1,7 @@
 ## A backend application for comparing product prices across multiple stores. 
 Built with Java, Spring Boot, and Gradle, this project processes CSV product data and provides endpoints for alerts, baskets, discounts, and product information.
 
-# 🛠 Tools & Technologies
+## 🛠 Tools & Technologies
 IDE: IntelliJ IDEA
 Language: Java (OpenJDK 17.0.15)
 Build Tool: Gradle (Kotlin DSL)
@@ -9,7 +9,7 @@ Framework: Spring Boot
 CSV Handling: BufferedReader (no external libraries)
 Frontend: HTML, JavaScript
 
-# 📁 Project Structure
+## 📁 Project Structure
 src/<br>
  ├── main/<br>
  │  ├── java/<br>
@@ -56,7 +56,7 @@ src/<br>
  │      └── delete-alert.html<br>
  └────/ 
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 1. Download the project
  Go to the master branch → click Code → Download ZIP
 2. Open in IntelliJ
@@ -76,23 +76,23 @@ src/<br>
  Example endpoints: /products/store/{storeName}   → storeName: lidl | kaufland | profi | mega/products/category/{categoryName}
  Replace {storeName} or {categoryName} with your desired value
 
-#📌 Assumptions
+## 📌 Assumptions
 IntelliJ IDEA and OpenJDK 17 must be installed
 Tested with ms-17, JDK version 17.0.15
 
-#📊 Features
+## 📊 Features
 View product lists per store
 Monitor discounts and promotions
 Manage product alerts
 Handle baskets with products
 Simple HTML/JS frontend for interaction
 
-# ⚙ How CSVs Are Used
+## ⚙ How CSVs Are Used
 CSV files are loaded via BufferedReader without external libraries
 Products and discounts are parsed and stored in memory
 Supports multiple stores with versioned CSVs
 
-# 🔗 Live Links (Local)
+## 🔗 Live Links (Local)
 Home: /home
 Products: /products/store/{storeName}
 Alerts: /alerts
